@@ -89,3 +89,4 @@ console.log(`sampleNumberforprefix:${sampleNumberforprefix}, prefix:${prefix}`)
 console.log(sampleNumberforprefix);
 
 */
+console.log(1+ 2+"3");
