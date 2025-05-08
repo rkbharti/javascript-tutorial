@@ -4,7 +4,7 @@
 
 /* DATAYPES ARE OF TWO TYPES  */
 //PRIMITIVE TYPE - 7 TYPES ARE (String, Number,Boolean,null,undefined,Symbool,bigInt)
-    const score = 100
+    /*  const score = 100
     console.log('100 is a '+ (typeof score));
     
     const scoreValue = 100.3
@@ -36,7 +36,7 @@
  /***********************************Array**********/
 
  //  storing data in array 
-  const heroes = ["shaktiman" , "ironman" , "Hulk"]
+  /*  const heroes = ["shaktiman" , "ironman" , "Hulk"]
   console.log('name of heroes are ' + (heroes));
   
 // storing data in object and objects are those which start from curly braces'{'
@@ -63,3 +63,30 @@
     console.log("hello world by making function as treating as variable  ");
     }
    myFunction();     
+*/
+
+
+   // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   // Stack (Primitive), Heap  (Non-Primitive) -- using as reference 
+
+    let myYoutubename = "ravdotcom" //creating a primitve datatype
+
+    let anotherName = myYoutubename // changing the name and not using referenve
+    anotherName = "pkdotcom"
+    console.log(myYoutubename); //ravidotcom
+    console.log(anotherName); //pkdotcom
+    //creating first user 
+    let userOne =  { //creating object 
+      email: "ravikbdotcom",
+      upi : "ravi@ybl"
+    }
+    console.log(userOne);
+
+    //creating seconduser using refernce from userone
+    let userTwo = userOne
+    userTwo.email = "pkhaidot.com";
+    userTwo.upi = "pkhai@ybl"
+    userTwo.age = 22,
+    console.log(userTwo);
+    
